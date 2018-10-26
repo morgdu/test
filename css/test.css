@@ -7,13 +7,13 @@ div {
 }
 
 @media (orientation: landscape) {
-  body {
-    flex-direction: row;
+  div {
+    background: blue;
   }
 }
 
 @media (orientation: portrait) {
-  body {
-    flex-direction: column;
+  div {
+    background: green;
   }
 }
